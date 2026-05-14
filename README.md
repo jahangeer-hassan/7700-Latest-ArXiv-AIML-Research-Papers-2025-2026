@@ -1,103 +1,221 @@
-7700+ Latest ArXiv AI/ML Research Papers (2025–2026)
-📌 Project Overview
+# 🚀 7700+ Latest ArXiv AI/ML Research Papers (2025–2026)
 
-This project performs Exploratory Data Analysis (EDA) on 7700+ latest AI & Machine Learning research papers collected from arXiv (2025–2026).
+## 📌 Project Overview
 
-The goal of this project is to discover:
+This project performs **Exploratory Data Analysis (EDA)** on a dataset containing **7700+ latest Artificial Intelligence and Machine Learning research papers** collected from **ArXiv (2025–2026)**.
 
-📈 Research publication trends
-🧠 Popular AI/ML categories
-👨‍💻 Author contributions
-📄 Abstract & word count patterns
-🤝 Research collaborations
-🔗 DOI availability
+The analysis explores research trends, publication growth, author contributions, category distributions, abstract statistics, collaborations, and relationships between different research features using powerful Python data analysis and visualization libraries. 
 
-This project was built using Python, Pandas, Matplotlib, and Seaborn in Google Colab.
+This project is designed for:
 
-📂 Dataset Features
-Feature	Description
-paper_id	Unique paper ID
-title	Research paper title
-authors	Author names
-num_authors	Total number of authors
-first_author	Main author
-abstract	Paper abstract
-abstract_length	Length of abstract
-word_count	Total words
-primary_category	Main AI/ML category
-all_categories	All paper categories
-year	Publication year
-month	Publication month
-has_doi	DOI availability
-doi	DOI reference
-arxiv_url	arXiv paper link
-pdf_url	PDF download link
-is_large_collaboration	Collaboration indicator
-🔍 Exploratory Data Analysis (EDA)
+* 📊 Data Analytics Portfolio
+* 🤖 AI/ML Research Analysis
+* 📈 Data Visualization Practice
+* 🧠 Machine Learning Enthusiasts
+* 💼 GitHub & LinkedIn Showcase
 
-The following analysis was performed:
+---
 
-Dataset Shape & Information
-Missing Values Analysis
-Statistical Summary
-Top AI/ML Categories
-Most Active Authors
-Research Papers Published Per Year
-Abstract Length Analysis
-Word Count Analysis
-DOI Availability Analysis
-Collaboration Analysis
-Correlation Analysis
-📊 Data Visualizations
+# 🎯 Objectives
 
-✅ Top AI/ML Categories Bar Chart
-✅ Top Authors Bar Chart
-✅ Research Papers Per Year Line Chart
-✅ Abstract Length Histogram
-✅ Word Count Histogram
-✅ DOI Availability Pie Chart
-✅ Large Collaboration Bar Chart
-✅ Authors vs Word Count Scatter Plot
-✅ Correlation Heatmap
+* Analyze AI/ML research publication trends
+* Explore top research categories in ArXiv
+* Identify active authors and collaborations
+* Study abstract length and word count patterns
+* Visualize relationships between research variables
+* Perform univariate and bivariate analysis
+* Generate meaningful research insights
 
-🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Google Colab
-📈 Key Insights
-AI/ML research publications increased rapidly in recent years.
-Some research categories are significantly more popular than others.
-Large collaborations are common in advanced AI research.
-Papers with longer abstracts generally contain higher word counts.
-Research trends show continuous growth in Artificial Intelligence and Machine Learning fields.
-▶️ How to Run the Project
-# Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+---
 
-# Install required libraries
-pip install pandas numpy matplotlib seaborn
-📁 Project Structure
-├── dataset.csv
-├── EDA_Notebook.ipynb
+# 🛠️ Technologies Used
+
+* Python 🐍
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook / Google Colab
+
+---
+
+# 📂 Dataset Information
+
+The dataset contains **7701 AI/ML research papers** with **26 features**. 
+
+## 📌 Dataset Features
+
+* Paper ID
+* Research Title
+* Authors
+* Number of Authors
+* First Author
+* Abstract
+* Abstract Length
+* Word Count
+* Primary Category
+* All Categories
+* Publication Year
+* Month
+* DOI Information
+* Journal Reference
+* Collaboration Details
+* Update Information
+* ArXiv URL
+* PDF URL
+
+
+
+---
+
+# 📊 Exploratory Data Analysis (EDA)
+
+## ✅ Basic Data Analysis
+
+* Dataset Shape Analysis
+* Column Inspection
+* Missing Values Check
+* Statistical Summary
+* Duplicate Detection
+
+## ✅ Research Trend Analysis
+
+* Top AI/ML Categories
+* Research Publication Growth
+* Author Contribution Analysis
+* Collaboration Analysis
+* DOI Availability Analysis
+
+## ✅ Statistical Analysis
+
+* Abstract Length Distribution
+* Word Count Distribution
+* Category Frequency Analysis
+* Correlation Analysis
+* Relationship Analysis
+
+---
+
+# 📈 Visualizations Used
+
+This project includes multiple powerful visualizations:
+
+* 📊 Top AI/ML Categories Bar Chart
+* 👨‍💻 Top Authors Bar Chart
+* 📈 Research Papers Published Per Year Line Chart
+* 📉 Abstract Length Histogram
+* 📉 Word Count Distribution Histogram
+* 🥧 DOI Availability Pie Chart
+* 📊 Large Collaboration Papers Bar Chart
+* 🔵 Authors vs Word Count Scatter Plot
+* 🔵 Abstract Length vs Word Count Scatter Plot
+* 🔥 Correlation Heatmap
+
+
+
+---
+
+# 🔍 Key Insights
+
+## 📌 Research Categories
+
+The most common AI/ML research categories were:
+
+| Category | Papers |
+| -------- | ------ |
+| cs.CV    | 1418   |
+| cs.LG    | 1392   |
+| cs.CL    | 1119   |
+| cs.RO    | 633    |
+| cs.AI    | 555    |
+
+
+
+---
+
+## 📌 Publication Growth
+
+* 2025 Papers: **416**
+* 2026 Papers: **7285**
+
+This shows a massive increase in AI/ML research activity. 
+
+---
+
+## 📌 Dataset Statistics
+
+* Total Papers: **7701**
+* Average Authors per Paper: **5.12**
+* Average Abstract Length: **1362**
+* Average Word Count: **179**
+* Maximum Authors in a Paper: **547**
+
+
+
+---
+
+# 📁 Project Structure
+
+```bash
+7700-Arxiv-AI-ML-EDA/
+│
+├── data/
+│   └── arxiv_ai_ml_papers.csv
+│
+├── notebooks/
+│   └── AI_ML_EDA.ipynb
+│
+├── images/
+│   └── visualizations/
+│
 ├── README.md
-└── visualizations/
-🎯 Final Conclusion
+└── requirements.txt
+```
 
-This project successfully analyzed more than 7700 AI/ML research papers using Exploratory Data Analysis techniques. The analysis revealed publication trends, category distributions, author activity, collaboration patterns, and relationships between different research features.
+---
 
-The project demonstrates practical skills in:
+# ▶️ How to Run This Project
 
-Data Cleaning
-Data Analysis
-Data Visualization
-Statistical Exploration
-Research Trend Analysis
-👨‍💻 Author
-Jackson
+## 1️⃣ Clone Repository
 
-📊 Data Analyst | AI/ML Enthusiast | Python Learner
+```bash
+git clone https://github.com/your-username/7700-Arxiv-AI-ML-EDA.git
+```
 
-⭐ If you like this project, give it a star on GitHub!
+## 2️⃣ Install Required Libraries
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+## 3️⃣ Open Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+---
+
+# 📌 Final Conclusion
+
+This project successfully performed Exploratory Data Analysis on 7700+ AI/ML research papers from ArXiv. The analysis revealed strong growth in AI and Machine Learning research publications, highlighted dominant research categories, and explored relationships between authorship, abstracts, collaborations, and publication trends.
+
+The project demonstrates how data analytics and visualization techniques can extract valuable insights from large-scale research datasets and support better understanding of modern AI/ML research trends. 
+
+---
+
+# 🤝 Connect With Me
+
+If you like this project, feel free to:
+
+⭐ Star the repository
+🍴 Fork the project
+📢 Share feedback
+🤝 Connect with me on GitHub & LinkedIn
+
+---
+
+# 📜 License
+
+This project is open-source and available for educational and research purposes.
+
