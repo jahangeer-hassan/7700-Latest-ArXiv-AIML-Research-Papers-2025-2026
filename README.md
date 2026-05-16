@@ -171,7 +171,7 @@ This shows a massive increase in AI/ML research activity.
 ## 1️⃣ Clone Repository
 
 ```bash id="m71w3m"
-git clone https://github.com/your-username/7700-Arxiv-AI-ML-EDA.git
+git clone https://github.com/jahangeer-hassan
 ```
 
 ## 2️⃣ Install Required Libraries
