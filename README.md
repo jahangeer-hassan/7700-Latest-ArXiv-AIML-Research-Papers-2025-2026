@@ -4,7 +4,7 @@
 
 This project performs **Exploratory Data Analysis (EDA)** on a dataset containing **7700+ latest Artificial Intelligence and Machine Learning research papers** collected from **ArXiv (2025–2026)**.
 
-The analysis explores research trends, publication growth, author contributions, category distributions, abstract statistics, collaborations, and relationships between different research features using powerful Python data analysis and visualization libraries. 
+The analysis explores research trends, publication growth, author contributions, category distributions, abstract statistics, collaborations, and relationships between different research features using powerful Python data analysis and visualization libraries.
 
 This project is designed for:
 
@@ -41,7 +41,7 @@ This project is designed for:
 
 # 📂 Dataset Information
 
-The dataset contains **7701 AI/ML research papers** with **26 features**. 
+The dataset contains **7701 AI/ML research papers** with **26 features**.
 
 ## 📌 Dataset Features
 
@@ -63,8 +63,6 @@ The dataset contains **7701 AI/ML research papers** with **26 features**.
 * Update Information
 * ArXiv URL
 * PDF URL
-
-
 
 ---
 
@@ -111,8 +109,6 @@ This project includes multiple powerful visualizations:
 * 🔵 Abstract Length vs Word Count Scatter Plot
 * 🔥 Correlation Heatmap
 
-
-
 ---
 
 # 🔍 Key Insights
@@ -129,8 +125,6 @@ The most common AI/ML research categories were:
 | cs.RO    | 633    |
 | cs.AI    | 555    |
 
-
-
 ---
 
 ## 📌 Publication Growth
@@ -138,7 +132,7 @@ The most common AI/ML research categories were:
 * 2025 Papers: **416**
 * 2026 Papers: **7285**
 
-This shows a massive increase in AI/ML research activity. 
+This shows a massive increase in AI/ML research activity.
 
 ---
 
@@ -150,13 +144,11 @@ This shows a massive increase in AI/ML research activity.
 * Average Word Count: **179**
 * Maximum Authors in a Paper: **547**
 
-
-
 ---
 
 # 📁 Project Structure
 
-```bash
+```bash id="jwd9hs"
 7700-Arxiv-AI-ML-EDA/
 │
 ├── data/
@@ -178,19 +170,19 @@ This shows a massive increase in AI/ML research activity.
 
 ## 1️⃣ Clone Repository
 
-```bash
+```bash id="m71w3m"
 git clone https://github.com/your-username/7700-Arxiv-AI-ML-EDA.git
 ```
 
 ## 2️⃣ Install Required Libraries
 
-```bash
+```bash id="s9qxx9"
 pip install pandas numpy matplotlib seaborn
 ```
 
 ## 3️⃣ Open Jupyter Notebook
 
-```bash
+```bash id="8b0wsr"
 jupyter notebook
 ```
 
@@ -200,22 +192,24 @@ jupyter notebook
 
 This project successfully performed Exploratory Data Analysis on 7700+ AI/ML research papers from ArXiv. The analysis revealed strong growth in AI and Machine Learning research publications, highlighted dominant research categories, and explored relationships between authorship, abstracts, collaborations, and publication trends.
 
-The project demonstrates how data analytics and visualization techniques can extract valuable insights from large-scale research datasets and support better understanding of modern AI/ML research trends. 
+The project demonstrates how data analytics and visualization techniques can extract valuable insights from large-scale research datasets and support better understanding of modern AI/ML research trends.
 
 ---
 
 # 🤝 Connect With Me
 
-If you like this project, feel free to:
+## GitHub
 
-⭐ Star the repository
-🍴 Fork the project
-📢 Share feedback
-🤝 Connect with me on GitHub & LinkedIn
+[GitHub Profile](https://github.com/jahangeer-hassan)
+
+## LinkedIn
+
+[LinkedIn Profile](https://www.linkedin.com/in/jahangeer-hassan-data-analysts/)
 
 ---
 
 # 📜 License
 
 This project is open-source and available for educational and research purposes.
+
 
